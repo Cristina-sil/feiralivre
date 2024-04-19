@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "app",
     "delivery",
+    "produtos",
+    "pagamento",
 ]
 
 MIDDLEWARE = [
