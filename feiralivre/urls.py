@@ -16,10 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
 from rest_framework.routers import DefaultRouter
 
-from app.api.views import VerdurasViewSet, FrutasViewSet, EntregaViewSet, PagamentoViewSet, ItemViewSet
+from delivery.api.views import EntregaViewSet, ItemViewSet
+from pagamento.api.views import PagamentoViewSet
+from produtos.api.views import FrutasViewSet, VerdurasViewSet
+
+'''from app.api.views import VerdurasViewSet, FrutasViewSet, EntregaViewSet, PagamentoViewSet, ItemViewSet'''
 
 router = DefaultRouter()
 

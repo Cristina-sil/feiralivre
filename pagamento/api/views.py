@@ -1,7 +1,7 @@
-from pagamentos.api.serializers import PagamentoSerializer
 from rest_framework import viewsets
 
-from app.models import Pagamento
+from pagamento.api.serializers import PagamentoSerializer
+from pagamento.models import Pagamento
 
 
 class PagamentoViewSet(viewsets.ModelViewSet):

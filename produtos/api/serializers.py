@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Frutas, Verduras
+from produtos.models import Frutas, Verduras
 
 
 class VerdurasSerializer(serializers.ModelSerializer):

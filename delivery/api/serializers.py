@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
-from .models import Entrega, Item, Pagamento
+from delivery.models import Entrega, Item
+from pagamento.models import Pagamento
 
 
 class EntregaSerializer(serializers.ModelSerializer):

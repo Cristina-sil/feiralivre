@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 
-from app.models import Frutas, Verduras
 from produtos.api.serializers import FrutasSerializer, VerdurasSerializer
+from produtos.models import Frutas, Verduras
 
 
 class VerdurasViewSet(viewsets.ModelViewSet):

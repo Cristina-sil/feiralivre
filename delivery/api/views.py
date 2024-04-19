@@ -1,7 +1,7 @@
-from entregas.api.serializers import EntregaSerializer, ItemSerializer
 from rest_framework import viewsets
 
-from app.models import Entrega, Item
+from delivery.api.serializers import EntregaSerializer, ItemSerializer
+from delivery.models import Entrega, Item
 
 
 class EntregaViewSet(viewsets.ModelViewSet):
